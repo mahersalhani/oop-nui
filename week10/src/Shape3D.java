@@ -17,12 +17,12 @@ public abstract class Shape3D extends Shape2D {
 
     @Override
     public String toString() {
-        return this.getClass().getSimpleName() + "{" +
+        return this.getClass().getSimpleName() + "{ " +
                 "PI=" + PI +
                 ", height=" + height +
                 ", radius=" + radius +
                 ", width=" + width +
                 ", depth=" + depth +
-                '}';
+                " }";
     }
 }

@@ -1,6 +1,6 @@
 public class TestMain {
     public static void main(String[] args) {
-        System.out.println("Shape3D:");
+        System.out.println("Shape3D: ");
         System.out.println("++++++++++++++++++++++++++++++++++++++");
         Shape3D sphere = new Sphere(5, 10);
         Shape3D cylinder = new Cylinder(5, 10);
@@ -12,7 +12,7 @@ public class TestMain {
         testShape3D(pyramid);
         testShape3D(cylinder);
 
-        System.out.println("Shape2D:");
+        System.out.println("Shape2D: ");
         System.out.println("++++++++++++++++++++++++++++++++++++++");
 
         Shape2D square = new Square(10);
